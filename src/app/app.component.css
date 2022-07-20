@@ -1,54 +1,21 @@
-* {
-    list-style: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+mat-sidenav-container {
+    height: 100%;
+}
 
+mat-sidenav {
+    padding: 16px;
 }
 
 
 
 
-.mat-toolbar {
-    background-color: #ff0066;
-    height: 60px;
-
-}
 
 
 
-.heading h1 {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 20px;
-    color: white;
-    letter-spacing: 3px;
-}
-
-.mat-toolbar-row h4 {
-    font-size: 20px;
-    color: white;
-}
-
-.mat-toolbar .mat-button {
-    margin-top: 2px;
-}
-
-.mat-toolbar .mat-icon {
-    color: white;
-    margin-bottom: 100px;
-
-}
 
 
-.mat-sidenav-container {
 
 
-    height: 85%;
-
-
-}
 
 
 
@@ -58,6 +25,7 @@
 
 }
 
+
 .container {
     display: flex;
     align-items: center;
@@ -65,23 +33,23 @@
 
     padding-left: 200px;
     padding-top: 200px;
-
 }
 
 
 
 .search-box {
-    border-radius: 10px;
-    background: white;
-    border: 1px solid #ff0066;
+    border-radius: 4px;
+
+    background: #FFFFFF;
+    height: 48px;
+
+    border: 1px solid #003167;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 
 
-form {
-    margin: 0;
 
-}
 
 .search-box input {
     border: none;
@@ -93,34 +61,45 @@ form {
 
 .search-box i {
     font-size: 20px;
-    margin: 0px 10px;
-    color: #ff0066;
+    margin: 0px 24px;
+    color: #0076FF;
 }
 
-.search-box i:hover {
-    color: #ff0066;
-}
 
-.search-box button {
+
+button {
     background: transparent;
     border: none;
 }
 
 .Departments h1 {
-    font-size: 38px;
+    font-size: 34px;
     text-align: center;
+    font-family: poppins;
+    font-weight: 600;
 }
 
 .Departments p {
 
-    font-size: 18px;
+    font-size: 17px;
+
+    color: #000000;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+
+
+    /* identical to box height */
+
+
+    color: #000000;
+
 
 }
 
-
-
 .mat-sidenav {
-    width: 420px;
+    width: 438px;
     background-color: white;
 }
 
@@ -158,15 +137,16 @@ form {
     border-radius: 50%;
     padding-left: 5%;
     margin-right: 10px;
-    padding-top: 2%;
+
 
 }
 
 .menu h3 {
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
+    font-weight: 500;
 
 
 }
@@ -213,24 +193,29 @@ form {
 
 
 
-.filter-row {
+/*.filter-row {
     padding-left: 4px;
-}
+    left: 20px;
+    padding-top: 95px;
 
-.filter-row input {
-    margin: 5px;
+}*/
+
+
+/*.filter-row input {
+    margin: 4px;
     border-radius: 5px;
-    height: 30px;
+    height: 35px;
     width: 150px;
     border: 1px solid lightgray;
     font-size: 12px;
     padding-left: 10px;
-}
+}*/
 
 .mat-sidenav button {
     color: #fff;
-    background: 1px solid red;
-    background: red;
+
+    background: #0076FF;
+    border-radius: 10px;
     transition: 1s;
 }
 
@@ -253,12 +238,5 @@ form {
     display: inline-block;
     font-size: 16px;
 
-}
-
-
-.filter-row i {
-    padding-left: 8px;
-    font-size: 20px;
-    color: #ff0066;
 
 }
